@@ -1,5 +1,36 @@
 # CHANGELOG
 
+## 1.3.0
+
+- Server-side pathfinding now consideres cells out of sight range to be empty
+
+## 1.2.3
+
+- Show fog of war even then no player is selected
+
+## 1.2.2
+
+- Show current number of units of each type
+
+## 1.2.1
+
+- Fix flickering when using debug interface inside `get_action`
+- Entities in `player_view` are now ordered by id
+
+## 1.2.0
+
+- Saving/loading game state
+- Fixed randomness with fixed seed
+- Debug interface flushing control for preventing flickering
+- Debug update method now receives game state that is actually currently being rendered
+- Debug data sent during debug update is controlling global debug data storage
+- Added `itertools` to Rust
+- Improved Ruby client performance
+
+## 1.1.1
+
+- Added `pandas` to PyPy
+
 ## 1.1.0
 
 - Reintroduce random order of attacking
